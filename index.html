@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="img/home1-img.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SLIDER CSS ===============--> 
+        <link rel="stylesheet" href="swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="styles.css">
+
+        <!--=============== FONT ===============-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
+
+        <title>КПКУ CRAFT</title>        
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="/" class="nav__logo">
+                    <img src="img/home1-img.png" alt="" class="nav__logo-img">
+                    КПКУ CRAFT
+                </a>
+    
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link active-link" style="font-family: 'Roboto', sans-serif;">Главная</a>
+                        </li>
+    
+                        <li class="nav__item">
+                            <a href="#links" class="nav__link" style="font-family: 'Roboto', sans-serif;">Ссылки</a>
+                        </li>
+                    </ul>
+                </div>
+    
+            </nav>
+        </header>
+        
+        <main class="main">
+            <!--==================== ABOUT ====================-->
+            <section class="section about" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">КПКУ CRAFT</h2>
+                        <p class="about__description"><b>Лучший</b> майнкрафт сервер в Краснодарском ПКУ. На данный момент насчитывает <b>15+</b> игроков с постоянным онлайном <b>5+</b> человек.
+                        </p>
+                    </div>
+
+                    <img src="img/about-img1.png" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--==================== LINKS ====================-->
+            <section class="section trick" id="links">
+                <h2 class="section__title">Ссылки</h2>
+                <div class="trick__container container grid">
+
+                  <div class="trick__content padding_card c-pointer" style="cursor:pointer" onclick="window.open('https://discord.gg/eKbbKKwj')">
+                    <img src="img/discord-img.png" style="border-radius: 8px;" alt="" class="trick__img">
+                    <h3 class="trick__title">Discord</h3>
+                    <span class="trick__subtitle">КПКУ CRAFT</span>
+                  </div>
+				  
+				  <div class="trick__content padding_card c-pointer" style="cursor:pointer" onclick="navigator.clipboard.writeText('wolfram1235')">
+                    <img src="img/admin-img.png" style="border-radius: 8px;" alt="" class="trick__img">
+                    <h3 class="trick__title">wolfram1235</h3>
+                    <span class="trick__subtitle">Админ сервера</span>
+                  </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <img src="img/home1-img.png" alt="" class="footer__logo-img">
+                            КПКУ CRAFT
+                        </a>
+
+                        <p class="footer__description">Лучший КПКУ майнкрафт сервер.</p>
+                    </div>
+                </div>
+
+                <span class="footer__copy"><a href="http://ifanfomin.ru" target="_blank" class="footer__link">Автор - ifanfomin</a></span>
+
+                <img src="assets/img/favicon.png" alt="" class="footer__img-one">
+            </footer>
+    </body>
+</html>
