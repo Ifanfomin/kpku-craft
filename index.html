@@ -72,7 +72,7 @@
                     <span class="trick__subtitle">КПКУ CRAFT</span>
                   </div>
 				  
-				  <div class="trick__content padding_card c-pointer" style="cursor:pointer" onclick="navigator.clipboard.writeText('wolfram1235')">
+				  <div class="trick__content padding_card c-pointer" style="cursor:pointer" onclick="copy('wolfram1235')">
                     <img src="img/admin-img.png" style="border-radius: 8px;" alt="" class="trick__img">
                     <h3 class="trick__title">wolfram1235</h3>
                     <span class="trick__subtitle">Админ сервера</span>
@@ -98,5 +98,19 @@
 
                 <img src="assets/img/favicon.png" alt="" class="footer__img-one">
             </footer>
+    <script>
+        function copy(str){
+            var tmp   = document.createElement('INPUT');
+            var focus = document.activeElement;
+        
+            tmp.value = str;
+        
+            document.body.appendChild(tmp);
+            tmp.select();
+            document.execCommand('copy');
+            document.body.removeChild(tmp);
+            focus.focus();
+        }
+    </script>
     </body>
 </html>
